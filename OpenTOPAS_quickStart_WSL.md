@@ -183,7 +183,7 @@ Compile GDCM as follows:
         cd OpenTOPAS
         mkdir gdcm-install
         mkdir gdcm-build
-        tar -zxf gdcm-2.6.8.tar,gz
+        tar -zxf gdcm-2.6.8.tar.gz
         cd gdcm-build
         cmake ../gdcm-2.6.8 -DGDCM_BUILD_SHARED_LIBS=ON -DGCM_BUILD_DOCBOOK_MANPAGES:BOOL=OFF -DCMAKE_INSTALL_PREFIX=../gdcm-install
         sudo make -j10 install
