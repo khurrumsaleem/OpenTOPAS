@@ -1,7 +1,7 @@
 # QuickStart Guide for OpenTOPAS: TOol for PArticle Simulation
 This file details the steps to be followed by <ins>Mac users</ins> in order to install OpenTOPAS and launch your first simulation. 
 
-These instructions target **v4.2.2** built against Geant4 **v11.3.2**.
+These instructions target **v4.2.3** built against Geant4 **v11.3.2**.
 
 > [!WARNING]
 > We recommend macOS version 14.0 (Sonoma) or higher. Furthermore following these instructions are solely responsability of the end user. 
@@ -253,9 +253,9 @@ The OpenTOPAS tests are located [here](https://github.com/OpenTOPAS/qi-opentopas
         pip3 install nrtest
         pip3 install git+https://github.com/davidchall/nrtest-topas.git
 
-Modify the `apps/topas-v4.2.2.json` metadata file according to your directories and configuration (remember to set your environment variables) and execute the entire test suite as follows:
+Modify the `apps/topas-v4.2.3.json` metadata file according to your directories and configuration (remember to set your environment variables) and execute the entire test suite as follows:
 
-        nrtest execute apps/topas-v4.2.2.json tests/ -o benchmarks/todayDate
+        nrtest execute apps/topas-v4.2.3.json tests/ -o benchmarks/todayDate
 
 Comparisons can also be made with the following command:
         
